@@ -68,7 +68,7 @@ export const PART_INFO = {
     tip: 'Keep box knockouts sealed — ants are attracted to the electrical fields and can short components.',
   },
   'control-board': {
-    summary: 'Outdoor unit control board (ComfortLink™ II communicating on XV-series systems). Runs diagnostics, sensor inputs and communicates with the thermostat/indoor unit.',
+    summary: 'Communicating outdoor unit control board. Runs diagnostics, sensor inputs and communicates with the thermostat/indoor unit.',
     role: 'Interprets the cooling demand, commands the inverter drive speed and fan speed, reads temperature sensors and pressure switches, and reports faults.',
     specs: ['24 VAC + communication data terminals (see wiring diagram for terminal names)', 'Status LEDs and/or display show operating state and flash codes', 'Stores fault history — read before clearing'],
     failures: ['Communication loss with indoor unit/thermostat', 'Lightning/surge damage', 'Failed relay or connector burn'],
@@ -123,7 +123,7 @@ export const PART_INFO = {
   },
   'compressor': {
     summary: 'Hermetic variable-speed compressor driven by a 3-phase permanent-magnet motor powered from the inverter drive.',
-    role: 'Pumps low-pressure suction vapor up to high-pressure, high-temperature discharge gas. Speed modulation (TruComfort™ variable speed on XV-series) tracks the cooling load for comfort and efficiency.',
+    role: 'Pumps low-pressure suction vapor up to high-pressure, high-temperature discharge gas. Speed modulation tracks the cooling load for comfort and efficiency.',
     specs: ['Three motor terminals (U/V/W) — no start or run capacitor', 'Mounted on rubber isolation grommets', 'Charged with POE oil — hygroscopic, keep the system sealed'],
     failures: ['Winding to ground (shorted)', 'Unbalanced or open windings', 'Mechanical damage from liquid floodback or oil loss', 'Overheating from low charge / high superheat'],
     diagnostics: ['Power OFF & bus discharged: measure U-V, V-W, W-U resistance — should be low and nearly equal', 'Check each terminal to ground (megohm test per manufacturer guidance, with drive leads disconnected)', 'Discharge-line temperature: excessive heat indicates low charge, restriction or high compression ratio', 'Use the board’s charge/test mode for steady-state readings'],
@@ -223,7 +223,7 @@ export const PART_INFO = {
 };
 
 export const OVERVIEW = {
-  title: 'XV18 Variable-Speed Air Conditioner',
+  title: 'Variable-Speed Air Conditioning System',
   body: `A top-discharge split-system condensing unit with an inverter-driven variable-speed compressor, variable-speed ECM fan, Spine Fin™ all-aluminum coil and a communicating control system. Select any part in the list or on the model to learn what it does, how it fails and how to test it.`,
 };
 

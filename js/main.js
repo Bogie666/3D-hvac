@@ -874,7 +874,7 @@ $('#loading').remove();
 flyTo(HOME.pos, HOME.target, 1.8);
 requestAnimationFrame(animate);
 try {
-  if (!localStorage.getItem('xv18-help-seen')) { help.classList.remove('hidden'); localStorage.setItem('xv18-help-seen', '1'); }
+  if (!localStorage.getItem('vs-trainer-help-seen')) { help.classList.remove('hidden'); localStorage.setItem('vs-trainer-help-seen', '1'); }
 } catch (_) { /* storage unavailable */ }
 
 // expose for debugging / automated checks

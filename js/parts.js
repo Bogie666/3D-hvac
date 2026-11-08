@@ -1,4 +1,4 @@
-// Procedural geometry for a representational XV18-style variable-speed
+// Procedural geometry for a representational variable-speed
 // outdoor condensing unit. Every part is built in world coordinates
 // (assembled position) inside its own root Group, so exploding a part is
 // simply a translation of that root.
@@ -328,7 +328,7 @@ function buildAccessPanel() {
   }
   // nameplate + warning decals
   const np = labelTexture([
-    ['MODEL: XV18-STYLE VARIABLE SPEED A/C', 20, true],
+    ['MODEL: VARIABLE SPEED A/C SYSTEM', 20, true],
     ['TRAINING MODEL - NOT FOR SERVICE DATA', 18, false],
     ['VOLTS 208/230  PH 1  HZ 60', 22, false],
     ['MCA ___  MOP ___  REFRIG ______', 22, false],

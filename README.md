@@ -1,6 +1,6 @@
-# XV18 3D Service Trainer
+# Variable-Speed System 3D Service Trainer
 
-An interactive, browser-based 3D explorer of a **Trane XV18-style variable-speed split-system air conditioner** (outdoor condensing unit), built for training HVAC technicians.
+An interactive, browser-based 3D explorer of a **variable-speed split-system air conditioner** (outdoor condensing unit), built for training HVAC technicians.
 
 No build step: plain HTML/CSS/ES modules with [three.js](https://threejs.org) loaded from a CDN.
 
@@ -49,4 +49,4 @@ To add or edit training content, change `js/content.js`. To adjust a part's expl
 
 This is a **representational training model**. Geometry is approximate and not to OEM scale or exact layout, and typical values in the content are general field guidance. Always follow the manufacturer's installation and service literature and the wiring diagram for the specific model and serial number being serviced.
 
-Trane, XV18, Spine Fin, ComfortLink and TruComfort are trademarks of their respective owners. This project is not affiliated with or endorsed by Trane.
+Trane and Spine Fin are trademarks of their respective owners. This project is not affiliated with or endorsed by Trane.
